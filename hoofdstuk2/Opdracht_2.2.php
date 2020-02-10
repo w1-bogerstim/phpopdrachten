@@ -39,7 +39,7 @@
         $text12 = "<br>";
         $text13 = "is";
         $text14 = "Vind je niet";
-        echo ("<p> $text1$text11 $text4 $text5 toch $text2$text10 $text12 $text7$text10 $text8 toch$text9 $text12 $text6 $text5 $text3 $text13$text10</p>")
+        echo ("<p> $text1$text11 $text4 $text5 toch $text2$text10 $text12 $text7$text10 $text8 toch$text9 $text12 $text6 $text5 $text3 $text13$text10</p>");
     ?>
 </div>
 </body>
