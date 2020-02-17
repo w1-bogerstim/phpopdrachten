@@ -37,7 +37,8 @@
     $text10 = "1909";
     $text11 = "1";
 
-    $verhaal1 = "De $text1 (Fries: $text2 ) is toch een $text3 kilometer lange $text4 over $text5 die wordt georganiseerd door de $text6. $text7, de hoofdstad van $text8, is start- en aankomstplaats. De $text1 is inmiddels $text9 maal verreden en wrd voor het eerst in $text10 gereden en wordt maximaal $text11 keer per winter gehouden."
+    $verhaal1 = "De $text1 (Fries: $text2 ) is toch een $text3 kilometer lange $text4 over $text5 die wordt georganiseerd door de $text6. $text7, de hoofdstad van $text8, is start- en aankomstplaats. De $text1 is inmiddels $text9 maal verreden en wrd voor het eerst in $text10 gereden en wordt maximaal $text11 keer per winter gehouden.";
+    echo ("<p>$verhaal1</p>")
 ?>
 </div>
 </body>
