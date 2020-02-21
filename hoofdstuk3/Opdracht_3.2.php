@@ -33,17 +33,15 @@
         {
             $driveOn = true;
         }
-
         else
         {
             $driveOn = false;
         }
 
-        if ($driveOn = true)
+        if ($driveOn == true)
         {
             echo ("U mag doorrijden");
         }
-
         else
         {
             echo ("U moet stoppen");
