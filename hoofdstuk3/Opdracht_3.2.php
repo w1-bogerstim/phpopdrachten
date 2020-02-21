@@ -18,7 +18,7 @@
     <meta name="keywords" content=" ">
     <meta charset="utf-8">
     <link href="../CSS/style.css" type="text/css" rel="stylesheet">
-
+    <link href="3.2.extra.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <h2>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h2>
@@ -40,11 +40,11 @@
 
         if ($driveOn == true)
         {
-            echo ("U mag doorrijden");
+            echo ("<p class='green'>U mag doorrijden</p>");
         }
         else
         {
-            echo ("U moet stoppen");
+            echo ("<p class='red'>U moet stoppen");
         }
     ?>
 
