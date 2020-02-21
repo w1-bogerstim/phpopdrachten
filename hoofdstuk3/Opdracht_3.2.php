@@ -24,6 +24,28 @@
 <h2>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h2>
 
 <div class="box">
+    <?php
+        $ambulanceComing = false;
+        $trafficLightColor = "green";
+        $driveOn = true;
+
+        if ($trafficLightColor = "green" && $ambulanceComing == false)
+        {
+            echo ("U mag doorrijden");
+        }
+
+        else if ($driveOn == false)
+        {
+            echo ("U moet stoppen");
+        }
+
+        else
+        {
+            $driveOn = false;
+        }
+
+
+    ?>
 
 </div>
 </body>
