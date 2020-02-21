@@ -29,14 +29,9 @@
         $trafficLightColor = "green";
         $driveOn = true;
 
-        if ($trafficLightColor = "green" && $ambulanceComing == false)
+        if ($trafficLightColor == "green" && $ambulanceComing == false)
         {
-            echo ("U mag doorrijden");
-        }
-
-        else if ($driveOn == false)
-        {
-            echo ("U moet stoppen");
+            $driveOn = true;
         }
 
         else
@@ -44,7 +39,15 @@
             $driveOn = false;
         }
 
+        if ($driveOn = true)
+        {
+            echo ("U mag doorrijden");
+        }
 
+        else
+        {
+            echo ("U moet stoppen");
+        }
     ?>
 
 </div>
