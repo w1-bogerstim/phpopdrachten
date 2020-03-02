@@ -24,6 +24,7 @@
 <h2>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h2>
 
 <div class="box">
+    <h1>Oefening 1</h1>
     <?php
         $ambulanceComing = false;
         $trafficLightColor = "green";
@@ -47,7 +48,74 @@
             echo ("<p class='red'>U moet stoppen");
         }
     ?>
+<h1>Oefening 2</h1>
+    <?php
+        $countryName = "Nederland";
+        $currentAge = 18;
 
+        if($countryName == 'Belgie')
+            if ($currentAge < 16)
+            {
+                echo ("<p>Je mag geen alcohol drinken</p>");
+            }
+            else if ($currentAge >= 16 && $currentAge <= 17)
+            {
+            echo ("<p>Je mag hier lichte alchol drinken</p>");
+             }
+            else
+            {
+            echo ("<p>Je mag hier zware alcohol drinken</p>");
+            }
+
+        else if ($countryName == 'Bulgarije')
+            if ($currentAge < 18)
+            {
+                echo ("<p>Je mag hier geen alcohol drinken</p>");
+            }
+            else
+            {
+            echo ("<p>Je mag hier alle alcohol drinken</p>");
+             }
+
+        else if ($countryName == 'Cyprus')
+            if ($currentAge < 17)
+            {
+                echo ("<p>Je mag hier geen alcohol drinken</p>");
+            }
+            else
+            {
+                echo ("<p>Je mag hier alle alcohol drinken</p>");
+            }
+
+        else if ($countryName == 'Nederland')
+            if ($currentAge < 18)
+            {
+                echo ("<p>Je mag hier geen alcohol drinken</p>");
+            }
+            else
+            {
+                echo ("<p>Je mag hier alle alcohol drinken</p>");
+            }
+
+        else if ($countryName == 'Zweden')
+            if ($currentAge < 18)
+            {
+                echo ("<p>Je mag hier geen alcohol drinken</p>");
+            }
+
+            else if ($currentAge >= 18 && $currentAge <= 19)
+            {
+                echo ("<p>Je mag hier lichte alcohol drinken</p>");
+            }
+
+            else
+            {
+                echo ("<p>Je mag hier alle alcohol drinken</p>");
+            }
+
+
+
+    ?>
 </div>
 </body>
 </html>
