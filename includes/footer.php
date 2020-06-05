@@ -26,6 +26,11 @@
     echo $moment . ' bezoeker, copyright Tim Bogers '. $year
 
 ?>
+<?php
+
+ if (isset($_SESSION['username'])) {     $bezoeker = $_SESSION['username']. "&nbsp;<a href='/phpopdrachten/hoofdstuk6/loguit.php'>Loguit</a>"; } else {     $bezoeker = "onbekende bezoeker". "&nbsp;<a href='/phpopdrachten/hoofdstuk6/opdracht_6.1.php'>Login</a>"; }
+?>
+
 </div>
 </body>
 </html>
